@@ -31,5 +31,3 @@ class Solution(object):
                 if (nums[index_1st] + nums[index_2nd]) == target:
                     return [index_1st,index_2nd]
 
-s = Solution()
-print s.twoSum(nums = [2,7,11,15],target=9)

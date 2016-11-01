@@ -73,19 +73,19 @@ class Solution(object):
 
 
 
-def main():
-    l1 = ListNode(5)
-    # l1.next = ListNode(4)
-    # l1.next.next = ListNode(3)
-    l2 = ListNode(5)
-    l2.next = ListNode(6)
-    # l2.next.next = ListNode(4)
-
-    rl = Solution().addTwoNumbers(l1,l2)
-    print rl.val
-    print rl.next.val
-    # print rl.next.next.val
-
-
-if __name__ == '__main__':
-    main()
+# def main():
+#     l1 = ListNode(5)
+#     # l1.next = ListNode(4)
+#     # l1.next.next = ListNode(3)
+#     l2 = ListNode(5)
+#     l2.next = ListNode(6)
+#     # l2.next.next = ListNode(4)
+#
+#     rl = Solution().addTwoNumbers(l1,l2)
+#     print rl.val
+#     print rl.next.val
+#     # print rl.next.next.val
+#
+#
+# if __name__ == '__main__':
+#     main()
