@@ -31,6 +31,10 @@ class Solution(object):
         carry = 0
         rl = ListNode(None)
         while True:
+            if (l1.val == None):
+                l1.val = 0
+            if (l2.val == None):
+                l2.val = 0
             if ((l1.val + l2.val + carry)/10 > 0):
                 rlval = (l1.val + l2.val + carry) % 10
                 carry = (l1.val + l2.val + carry) / 10
